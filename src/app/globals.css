@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Scandia", sans-serif;
+}
+/* === fonts/scandiafont.css === */
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Italic.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Bold_Italic.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Optional additional weights/styles */
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Light_Italic.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Scandia";
+  src: url("/fonts/Scandiafont/fonnts.com-Scandia_Medium_Italic.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #efefef inset !important;
+  background-color: #efefef !important;
+  color: #000 !important;
+}
