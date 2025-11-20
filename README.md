@@ -34,19 +34,19 @@ It helps you convert long URLs into short, shareable links—while tracking clic
 
 tinylink/
 ├── src/
-│ ├── app/
-│ │ ├── api/
-│ │ │ └── links/
-│ │ ├── code/
-│ │ │ └── [code]/
-│ │ ├── [code]/
-│ │ ├── healthz/
-│ │ ├── layout.tsx
-│ │ ├── page.tsx
-│ │ └── globals.css
-│ ├── components/
-│ ├── lib/
-│ └── types/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── links/
+│   │   ├── code/
+│   │   │   └── [code]/
+│   │   ├── [code]/
+│   │   ├── healthz/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── globals.css
+│   ├── components/
+│   ├── lib/
+│   └── types/
 ├── .env.example
 ├── schema.sql
 └── README.md
@@ -68,7 +68,7 @@ tinylink/
 Clone the repo:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/RLokeshvarma/tinyLink
 cd tinylink
 
 
@@ -81,7 +81,7 @@ npm install
 npm run dev
 
 ---
-
+```md
 ##API Endpoints
 
 | Method | Endpoint           | Description              |
