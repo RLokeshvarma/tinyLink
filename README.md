@@ -80,6 +80,8 @@ npm install
 
 npm run dev
 
+---
+
 ##API Endpoints
 
 | Method | Endpoint           | Description              |
