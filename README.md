@@ -32,6 +32,7 @@ It helps you convert long URLs into short, shareable links—while tracking clic
 
 ##  Project Structure
 
+```txt
 tinylink/
 ├── src/
 │   ├── app/
@@ -50,6 +51,7 @@ tinylink/
 ├── .env.example
 ├── schema.sql
 └── README.md
+```
 
 
 
@@ -82,7 +84,7 @@ npm run dev
 ```
 ---
 
-##API Endpoints
+## API Endpoints
 
 | Method | Endpoint           | Description              |
 | ------ | ------------------ | ------------------------ |
