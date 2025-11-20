@@ -79,9 +79,9 @@ npm install
 ## Start the Development Server
 
 npm run dev
-
+```
 ---
-```md
+
 ##API Endpoints
 
 | Method | Endpoint           | Description              |
